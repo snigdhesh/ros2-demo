@@ -14,9 +14,11 @@
 ```
 
 - Then switch back to `ros2-ws`
+
+#### Peform BI-RUN (Build, Install and Run)
 - Then build workspace using `colcon build`. This will create package.
 - Now install package using `source install/setup.bash`
-- run package using `ros2 run <package_name> <script_name>`
+- Run package using `ros2 run <package_name> <script_name>`
 - Eg: `ros2 run hello_world naga`
 
 
