@@ -1,4 +1,4 @@
-#### How to create a ros2 project?
+#### Project creation standard process
 
 - Create `ros2-ws/src` folder
 - Create ros2 project using `ros2 pkg create --build-type ament_python hello_ros2` under `ros2-ws/src` folder.
@@ -18,3 +18,5 @@
 - Now install package using `source install/setup.bash`
 - run package using `ros2 run <package_name> <script_name>`
 - Eg: `ros2 run hello_world naga`
+
+
